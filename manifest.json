@@ -3,7 +3,7 @@
     "name": "Element to Text Field",
     "version": "1.0",
     "description": "Right-click to change an element to a text field.",
-    "permissions": ["contextMenus", "activeTab", "*://*/*", "scripting"],
+    "permissions": ["contextMenus", "activeTab", "scripting"],
     "content_scripts": [
         {
           "matches": ["<all_urls>"],
